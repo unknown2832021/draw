@@ -1,0 +1,224 @@
+
+@media only screen and (max-width: 600px) { 
+    #noor{
+    font-size: 20px;
+    width: 100%;
+    }
+   #date{
+    width: 100%;
+    top: 0;
+   }
+   figure{
+    left: 150px;
+    top: 1000px;
+   }
+   #upper{
+    top: 70px;
+    right: -200px;
+   }
+   
+   #menu{
+    top: -20px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    }
+    .frame{
+        width: 200px;
+    }
+    
+}
+@media only screen and (max-width: 700px) { 
+    #noor{
+    font-size: 20px;
+    width: 100%;
+    }
+   #date{
+    width: 100%;
+    top: 0;
+   }
+   figure{
+    left: 200px;
+    top: 1000px;
+   }
+   #upper{
+    top: 70px;
+    right: -200px;
+   }
+   
+   #menu{
+    top: -20px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    }
+    .frame{
+        width: 200px;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    #noor{
+        font-size: 20px;
+        width: 100%;
+    }
+   #date{
+       width: 100%;
+       top: 0;
+   }
+   figure{
+    left: 450px;
+    top: 1020px;
+   }
+   #upper{
+    top: 60px;
+    right: -400px;
+   }
+   #menu{
+    top: -45px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    }
+    .frame{
+        width: 400px;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    #noor{
+        font-size: 20px;
+        width: 100%;
+    }
+   #date{
+       width: 100%;
+       top: 0;
+   }
+   figure{
+    left: 800px;
+    top: 900px;
+   }
+   #upper{
+    top: 60px;
+    right: -450px;
+   }
+   #menu{
+    top: -45px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    
+    }
+    .frame{
+        width: 600px;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+    #noor{
+        font-size: 20px;
+        width: 100%;
+    }
+   #date{
+       width: 100%;
+       top: 0;
+   }
+   figure{
+    left: 800px;
+    top: 800px;
+   }
+   #upper{
+    top: 60px;
+    right: -520px;
+   }
+   #menu{
+    top: -20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    
+    }
+    .frame{
+        width: 700px;
+    }
+    
+}
+@media only screen and (max-width: 1250px) {
+    #noor{
+        font-size: 20px;
+        width: 100%;
+    }
+   #date{
+       width: 100%;
+       top: 0;
+   }
+   figure{
+    left: 800px;
+    top: 800px;
+   }
+   #upper{
+    top: 80px;
+    right: -520px;
+   }
+   #menu{
+    top: -20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    
+    }
+    .frame{
+        width: 750px;
+    }
+    
+}
+@media only screen and (max-width: 1400px) {
+    #noor{
+        font-size: 20px;
+        width: 100%;
+    }
+   #date{
+       width: 100%;
+       top: 0;
+   }
+   figure{
+    left: 1100px;
+    top: 800px;
+   }
+   #upper{
+    top: 120px;
+    right: -600px;
+   }
+   #menu{
+    top: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+   p{
+    top: 70px;
+    
+    }
+    .frame{
+        width: 900px;
+    }
+    
+}

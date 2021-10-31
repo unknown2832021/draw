@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<hea>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drawDetails.css">
+    <link rel="stylesheet" href="media.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>DrawDetails</title>
+
+</head>
+
+<body>
+    <!--Current Date and Time-->
+    <p id="date">Connection established Moments: <span id='demo'></span>.</p>
+    <marquee behavior="scroll" direction="left">Let us congratulate our 5th Draw Winner - Cenab Sekhar  🌈 🍕 👏!!!
+    </marquee>
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+
+    <h1 id="welcome">Welcome Viewers</h1>
+    <h1>Annual draw details:</h1>
+    <p id="noor">Kindly hover over or click on the button to see the draw status details about the enlisted person.</p>
+    <div class="frame">
+        <button class="custom-btn btn-1"><a href="#"><span>Pending!</span><span>Noor Mohammad</span></a></button>
+        <button class="custom-btn btn-2"><a href="#"><span>Done</span><span>Hira Sikhdar</span></a></button>
+        <button class="custom-btn btn-3"><a href="#"><span>Done</span><span>Cenab Sekhar</span></a></button>
+        <button class="custom-btn btn-4"><a href="#"><span>Pending!</span><span>Jahirul Islam</span></a></button>
+        <button class="custom-btn btn-5"><a href="#"><span>Done</span><span>Amur AL Hearthy</span></a></button>
+        <button class="custom-btn btn-6"><a href="#"><span>Pending!</span><span>Mohammad Saif</span></a></button>
+        <button class="custom-btn btn-7"><a href="#"><span>Done</span><span>Wesal Al Raisi</span></a></button>
+        <button class="custom-btn btn-8"><a href="#"><span>Done</span><span>Najma Hamed</span></a></button>
+        <button class="custom-btn btn-9"><a href="#"><span>Pending!</span><span>Shimul Kumar</span></a></button>
+        <button class="custom-btn btn-10"><a href="#"><span>Pending!</span><span>Mohammad Rasel</span></a></button>
+        <button class="custom-btn btn-11"><a href="#"><span>Pending!</span><span>Elangovan Selvarajan</span></a></button>
+        <button class="custom-btn btn-12"><a href="#"><span>Pending!</span><span>Charles Rai</span></a></button>
+
+        <p>All the best for your turn if pending so -- Regards by - <strong>Noor_Mohammad</strong></p>
+    </div>
+    <button id="upper" onclick="typeWriter()">Click to Contact</button>
+    <p id="menu"></p>
+    <script>
+        var i = 0;
+        var txt = 'Kindly contact on_noormohammad@aaoman.com.om or call #- 00968-24769821 / 00968 97859628 for more information or inquiry. Feel free to make any comments if necessary!_Have a good day.';
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("menu").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
+    <!--Watch-->
+    <a href="index.html">
+    <figure>
+        <div class="c"></div>
+        <div class="c2"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+        <div class="c5"></div>
+        <div class="c6"></div>
+    </figure>
+</a>
+
+</body>
+
+</html>
